@@ -1,7 +1,12 @@
-﻿namespace TaxiManagement.BLL.Contracts
+﻿using System.Threading.Tasks;
+using TaxiManagement.Domain;
+using TaxiManagement.Domain.Contracts;
+using TaxiManagement.Domain.Models;
+
+namespace TaxiManagement.BLL.Contracts
 {
-    public class IDriverDeleteService
+    public interface IDriverDeleteService
     {
-        
+        Task DeleteAsync(IDriverId driver);
     }
 }

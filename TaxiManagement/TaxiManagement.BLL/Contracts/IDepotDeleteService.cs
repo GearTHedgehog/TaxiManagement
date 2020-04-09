@@ -1,7 +1,11 @@
-﻿namespace TaxiManagement.BLL.Contracts
+﻿using System.Threading.Tasks;
+using TaxiManagement.Domain;
+using TaxiManagement.Domain.Contracts;
+
+namespace TaxiManagement.BLL.Contracts
 {
-    public class IDepotDeleteService
+    public interface IDepotDeleteService
     {
-        
+        Task DeleteAsync(IDepotId depot);
     }
 }

@@ -1,7 +1,11 @@
-﻿namespace TaxiManagement.BLL.Contracts
+﻿using System.Threading.Tasks;
+using TaxiManagement.Domain;
+using TaxiManagement.Domain.Models;
+
+namespace TaxiManagement.BLL.Contracts
 {
-    public class IDriverCreateService
+    public interface IDriverCreateService
     {
-        
+        Task<Driver> CreateAsync(DriverUpdateModel driver);
     }
 }

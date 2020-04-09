@@ -1,7 +1,11 @@
-﻿namespace TaxiManagement.BLL.Contracts
+﻿using System.Threading.Tasks;
+using TaxiManagement.Domain;
+using TaxiManagement.Domain.Models;
+
+namespace TaxiManagement.BLL.Contracts
 {
-    public class IDepotCreateService
+    public interface IDepotCreateService
     {
-        
+        Task<Depot> CreateAsync(DepotCreateModel depot);
     }
 }
