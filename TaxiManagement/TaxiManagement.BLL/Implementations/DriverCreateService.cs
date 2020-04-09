@@ -7,7 +7,7 @@ namespace TaxiManagement.BLL.Implementations
 {
     public class DriverCreateService:IDriverCreateService
     {
-        private ICarGetService CarGetService { get; }
+        private ICarGetService CarGetService { get; } //каждый водитель привязывается к машине, нужно проверить, существует ли машина
 
         public DriverCreateService(ICarGetService carGetService)
         {
@@ -16,7 +16,7 @@ namespace TaxiManagement.BLL.Implementations
 
         public async Task<Driver> CreateAsync(DriverUpdateModel driver)
         {
-            await this.CarGetService.ValidateAsync(driver);
+            await this.CarGetService.ValidateAsync(driver); //проверка, привязан ли водитель к машине
             throw new System.NotImplementedException();
         }
     }
