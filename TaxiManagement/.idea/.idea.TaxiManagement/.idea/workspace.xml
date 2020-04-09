@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ce6f73d-3d39-4673-bbc5-610e65643fde" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL.Tests.Unit/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotGetService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Depot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotCreateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotDeleteService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Contracts/ICarId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarCreateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Driver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarGetService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDriverId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarUpdateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Models/CarIdModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarDeleteService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverIdModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverCreateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Models/DepotIdModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverGetService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Models/CarUpdateModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverUpdateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DTO/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverUpdateModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverDeleteService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Models/DepotCreateModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarCreateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarDeleteService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarUpdateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotCreateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotDeleteService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverCreateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverDeleteService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverGetService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Class1.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DTO/Class1.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Class1.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Class1.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotContainer.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotID.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/ICarId.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDriverId.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Driver.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotId.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Car.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Depot.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverIdModel.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DepotIdModel.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/CarIdModel.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/CarUpdateModel.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverUpdateModel.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DepotCreateModel.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotCreateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotDeleteService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarCreateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarUpdateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarDeleteService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverCreateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverUpdateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverDeleteService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarCreateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarDeleteService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarUpdateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotCreateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotDeleteService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverCreateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverDeleteService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aIs8T7y2am0wV7I1qvYc7UcF2F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.TaxiManagement.WebAPI">
+    <configuration name="TaxiManagement.WebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TaxiManagement.WebAPI/TaxiManagement.WebAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="TaxiManagement.WebAPI" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxiManagement.WebAPI: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TaxiManagement.WebAPI/TaxiManagement.WebAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.TaxiManagement.WebAPI" />
+      <item itemvalue=".NET Launch Settings Profile.TaxiManagement.WebAPI: IIS Express" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ce6f73d-3d39-4673-bbc5-610e65643fde" name="Default Changelist" comment="" />
+      <created>1586434282666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586434282666</updated>
+      <workItem from="1586434285444" duration="5801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="186" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586435300534">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586435300534" />
+    <state x="541" y="258" key="Github.ShareDialog" timestamp="1586443373270">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="541" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1586443373270" />
+    <state x="324" y="114" key="Rider.ProjectTemplateDialog.Size" timestamp="1586435396539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="114" key="Rider.ProjectTemplateDialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1586435396539" />
+  </component>
+</project>

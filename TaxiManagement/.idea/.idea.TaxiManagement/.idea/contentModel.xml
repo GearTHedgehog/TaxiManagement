@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Gear\.nuget\packages\microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\Gear\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\Gear\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\Gear\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.api.dll" t="Include" />
+    <e p="C:\Users\Gear\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.dll" t="Include" />
+    <e p="C:\Users\Gear\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\Gear\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\Gear\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gear\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TaxiManagement.2054278794.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Gear\RiderProjects\dotnet\TaxiManagement" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TaxiManagement.BLL" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contracts" t="Include">
+          <e p="ICarCreateService.cs" t="Include" />
+          <e p="ICarDeleteService.cs" t="Include" />
+          <e p="ICarGetService.cs" t="Include" />
+          <e p="ICarUpdateService.cs" t="Include" />
+          <e p="IDepotCreateService.cs" t="Include" />
+          <e p="IDepotDeleteService.cs" t="Include" />
+          <e p="IDepotGetService.cs" t="Include" />
+          <e p="IDriverCreateService.cs" t="Include" />
+          <e p="IDriverDeleteService.cs" t="Include" />
+          <e p="IDriverGetService.cs" t="Include" />
+          <e p="IDriverUpdateService.cs" t="Include" />
+        </e>
+        <e p="Implementations" t="Include">
+          <e p="CarCreateService.cs" t="Include" />
+          <e p="CarDeleteService.cs" t="Include" />
+          <e p="CarGetService.cs" t="Include" />
+          <e p="CarUpdateService.cs" t="Include" />
+          <e p="DepotCreateService.cs" t="Include" />
+          <e p="DepotDeleteService.cs" t="Include" />
+          <e p="DepotGetService.cs" t="Include" />
+          <e p="DriverCreateService.cs" t="Include" />
+          <e p="DriverDeleteService.cs" t="Include" />
+          <e p="DriverGetService.cs" t="Include" />
+          <e p="DriverUpdateService.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TaxiManagement.BLL.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TaxiManagement.BLL.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TaxiManagement.BLL.Tests.Unit" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TaxiManagement.BLL.Tests.Unit.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TaxiManagement.BLL.Tests.Unit.csproj" t="IncludeRecursive" />
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
+      <e p="TaxiManagement.DataAccess" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Context" t="Include">
+          <e p="TaxiManagementContext.cs" t="Include" />
+        </e>
+        <e p="Contracts" t="Include" />
+        <e p="Entities" t="Include" />
+        <e p="Implementations" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TaxiManagement.DataAccess.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TaxiManagement.DataAccess.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TaxiManagement.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Car.cs" t="Include" />
+        <e p="Contracts" t="Include">
+          <e p="ICarId.cs" t="Include" />
+          <e p="IDepotID.cs" t="Include" />
+          <e p="IDriverId.cs" t="Include" />
+        </e>
+        <e p="Depot.cs" t="Include" />
+        <e p="Driver.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="CarIdModel.cs" t="Include" />
+          <e p="CarUpdateModel.cs" t="Include" />
+          <e p="DepotCreateModel.cs" t="Include" />
+          <e p="DepotIdModel.cs" t="Include" />
+          <e p="DriverIdModel.cs" t="Include" />
+          <e p="DriverUpdateModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TaxiManagement.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TaxiManagement.Domain.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TaxiManagement.DTO" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TaxiManagement.DTO.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TaxiManagement.DTO.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TaxiManagement.sln" t="IncludeFlat" />
+      <e p="TaxiManagement.WebAPI" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TaxiManagement.WebAPI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="TaxiManagement.WebAPI.csproj" t="IncludeRecursive" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
