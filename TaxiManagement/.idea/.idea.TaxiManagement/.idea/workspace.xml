@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ce6f73d-3d39-4673-bbc5-610e65643fde" name="Default Changelist" comment="msg">
+    <list default="true" id="6ce6f73d-3d39-4673-bbc5-610e65643fde" name="Default Changelist" comment="BLL Interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TaxiManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaxiManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarCreateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarCreateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarDeleteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarDeleteService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarGetService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarUpdateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarUpdateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotCreateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotCreateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotDeleteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotDeleteService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotGetService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverCreateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverCreateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverDeleteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverDeleteService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverGetService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverUpdateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverUpdateService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarCreateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarCreateService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarDeleteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarDeleteService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarUpdateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarUpdateService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotCreateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotCreateService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotDeleteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotDeleteService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverCreateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverCreateService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverDeleteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverDeleteService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverGetService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/TaxiManagement.BLL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/TaxiManagement.BLL.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/obj/TaxiManagement.BLL.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/obj/TaxiManagement.BLL.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/obj/TaxiManagement.BLL.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/obj/TaxiManagement.BLL.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -91,17 +99,6 @@
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverUpdateModel.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DepotCreateModel.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarCreateService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarDeleteService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarUpdateService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotCreateService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotDeleteService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverCreateService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverDeleteService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverGetService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarCreateService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarUpdateService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotCreateService.cs" />
@@ -113,6 +110,17 @@
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotDeleteService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverGetService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverUpdateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarDeleteService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarUpdateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarCreateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotCreateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotDeleteService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverCreateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverDeleteService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" />
       </list>
     </option>
   </component>
@@ -186,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586434282666</updated>
-      <workItem from="1586434285444" duration="7670000" />
+      <workItem from="1586434285444" duration="9175000" />
     </task>
     <task id="LOCAL-00001" summary="msg">
       <created>1586443654534</created>
@@ -202,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586443705261</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BLL Interfaces">
+      <created>1586445265713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586445265713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +248,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="msg" />
-    <option name="LAST_COMMIT_MESSAGE" value="msg" />
+    <MESSAGE value="BLL Interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="BLL Interfaces" />
   </component>
   <component name="WindowStateProjectService">
     <state x="186" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586435300534">

@@ -1,7 +1,27 @@
-﻿namespace TaxiManagement.BLL.Implementations
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using TaxiManagement.BLL.Contracts;
+using TaxiManagement.Domain;
+using TaxiManagement.Domain.Contracts;
+
+namespace TaxiManagement.BLL.Implementations
 {
-    public class CarGetService
+    public class CarGetService:ICarGetService
     {
-        
+        public Task<Car> GetAsync(ICarId car)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<IEnumerable<Car>> GetAsync()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task ValidateAsync(ICarId car)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
