@@ -17,7 +17,6 @@ namespace TaxiManagement.BLL.Implementations
         public async Task<Depot> CreateAsync(DepotCreateModel depot)
         {
             return await this.DepotDataAccess.InsertAsync(depot);
-            throw new System.NotImplementedException();
         }
     }
 }

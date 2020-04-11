@@ -40,7 +40,7 @@ namespace TaxiManagement.BLL.Implementations
             var depot = await this.GetBy(depotContainer);
             if (depotContainer.DepotContainer.HasValue && depot == null)
             {
-                throw new InvalidOperationException($"Car not found by id {depotContainer.DepotContainer}");
+                throw new InvalidOperationException($"Depot not found by id {depotContainer.DepotContainer}");
             }
         }
     }

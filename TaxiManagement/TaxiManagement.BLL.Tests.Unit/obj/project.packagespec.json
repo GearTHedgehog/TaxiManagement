@@ -14,7 +14,14 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\TaxiManagement.BLL.csproj": {
+            "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\TaxiManagement.BLL.csproj"
+          },
+          "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj": {
+            "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -26,9 +33,21 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "AutoFixture": {
+          "target": "Package",
+          "version": "[4.11.0, )"
+        },
+        "FluentAssertions": {
+          "target": "Package",
+          "version": "[5.10.3, )"
+        },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
           "version": "[16.4.0, )"
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.13.1, )"
         },
         "NUnit3TestAdapter": {
           "target": "Package",
