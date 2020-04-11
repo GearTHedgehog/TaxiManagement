@@ -40,14 +40,13 @@ namespace TaxiManagement.DataAccess.Implementations
                 throw new ArgumentNullException(nameof(depot));
             }
 
-            return await this.Context.Depot.Include(x => x)
-                .FirstOrDefaultAsync(x => x.Id == depot.DepotId);
+            return await this.Context.Depot.FirstOrDefaultAsync(x => x.Id == depot.DepotId);
         }
 
         public async Task<IEnumerable<Depot>> GetAsync()
         {
             return this.Mapper.Map<IEnumerable<Domain.Depot>>(
-                await this.Context.Depot.Include(x => x).ToListAsync());
+                await this.Context.Depot.ToListAsync());
         }
 
         public async Task<Depot> GetAsync(IDepotId depotId)
