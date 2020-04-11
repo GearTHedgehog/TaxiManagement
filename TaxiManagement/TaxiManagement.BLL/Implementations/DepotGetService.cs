@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using TaxiManagement.BLL.Contracts;
+using TaxiManagement.DataAccess.Contracts;
 using TaxiManagement.Domain;
 using TaxiManagement.Domain.Contracts;
 
@@ -8,19 +10,38 @@ namespace TaxiManagement.BLL.Implementations
 {
     public class DepotGetService:IDepotGetService
     {
+        private IDepotDataAccess DepotDataAccess { get; }
+
+        public DepotGetService(IDepotDataAccess depotDataAccess)
+        {
+            this.DepotDataAccess = depotDataAccess;
+        }
         public Task<IEnumerable<Depot>> GetAsync()
         {
-            throw new System.NotImplementedException();
+            return this.DepotDataAccess.GetAsync();
         }
 
         public Task<Depot> GetAsync(IDepotId depot)
         {
-            throw new System.NotImplementedException();
+            return this.DepotDataAccess.GetAsync(depot);
         }
 
-        public Task ValidateAsync(IDepotContainer depot)
+        private async Task<Depot> GetBy(IDepotContainer depotContainer)
         {
-            throw new System.NotImplementedException();
+            return await this.DepotDataAccess.GetByAsync(depotContainer);
+        }
+        public async Task ValidateAsync(IDepotContainer depotContainer)
+        {
+            if (depotContainer == null)
+            {
+                throw new ArgumentNullException(nameof(depotContainer));
+            }
+
+            var depot = await this.GetBy(depotContainer);
+            if (depotContainer.DepotContainer.HasValue && depot == null)
+            {
+                throw new InvalidOperationException($"Car not found by id {depotContainer.DepotContainer}");
+            }
         }
     }
 }

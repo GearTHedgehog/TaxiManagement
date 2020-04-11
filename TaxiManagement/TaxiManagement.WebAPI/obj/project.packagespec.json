@@ -14,7 +14,20 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\TaxiManagement.BLL.csproj": {
+            "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\TaxiManagement.BLL.csproj"
+          },
+          "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj": {
+            "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj"
+          },
+          "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj": {
+            "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj"
+          },
+          "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DTO\\TaxiManagement.DTO.csproj": {
+            "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DTO\\TaxiManagement.DTO.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

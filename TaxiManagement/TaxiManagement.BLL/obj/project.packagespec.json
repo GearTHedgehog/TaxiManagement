@@ -15,6 +15,9 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
+          "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj": {
+            "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj"
+          },
           "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj": {
             "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj"
           }

@@ -54,12 +54,14 @@ namespace TaxiManagement.DataAccess.Implementations
         {
             var result = await this.Get(carId);
             return this.Mapper.Map<Domain.Car>(result);
-            throw new NotImplementedException();
         }
 
-        public async Task<Car> GetByAsync(ICarId carId)
+        public async Task<Car> GetByAsync(ICarContainer carId)
         {
-            throw new NotImplementedException();
+            return carId.CarContainer.HasValue
+                ? this.Mapper.Map<Domain.Car>(
+                    await this.Context.Car.FirstOrDefaultAsync(x => x.Id == carId.CarContainer))
+                : null;
         }
 
         public async Task<Car> UpdateAsync(CarUpdateModel car)

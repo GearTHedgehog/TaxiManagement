@@ -8,7 +8,7 @@ namespace TaxiManagement.DataAccess.Contracts
 {
     public interface IDepotDataAccess
     {
-        Task<Depot> GetByAsync(IDepotId depotId);
+        Task<Depot> GetByAsync(IDepotContainer depotId);
         Task<Depot> InsertAsync(DepotCreateModel depot);
         Task DeleteAsync(IDepotId depotId);
         Task<Depot> GetAsync(IDepotId depotId);

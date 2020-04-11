@@ -10,7 +10,7 @@ namespace TaxiManagement.DataAccess.Contracts
     {
         Task<Car> InsertAsync(CarUpdateModel car);
         Task<IEnumerable<Car>> GetAsync();
-        Task<Car> GetByAsync(ICarId carId);
+        Task<Car> GetByAsync(ICarContainer carId);
         Task<Car> GetAsync(ICarId carId);
         Task<Car> UpdateAsync(CarUpdateModel car);
         Task DeleteAsync(ICarId car);

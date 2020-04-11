@@ -11,7 +11,7 @@ namespace TaxiManagement.DataAccess.Contracts
         Task<Driver> InsertAsync(DriverUpdateModel driver);
         Task<IEnumerable<Driver>> GetAsync();
         Task<Driver> GetAsync(IDriverId driverId);
-        Task<Car> UpdateAsync(DriverUpdateModel driver);
+        Task<Driver> UpdateAsync(DriverUpdateModel driver);
         Task DeleteAsync(IDriverId driverId);
     }
 }
