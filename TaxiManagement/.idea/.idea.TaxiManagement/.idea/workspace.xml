@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ce6f73d-3d39-4673-bbc5-610e65643fde" name="Default Changelist" comment="fixup! BLL Implementations">
+    <list default="true" id="6ce6f73d-3d39-4673-bbc5-610e65643fde" name="Default Changelist" comment="Added some comments in BLL Implementations">
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Car.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Depot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Driver.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TaxiManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaxiManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarCreateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarCreateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarUpdateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarUpdateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverCreateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverCreateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/TaxiManagement.DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/TaxiManagement.DataAccess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/Debug/netcoreapp3.1/TaxiManagement.DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/Debug/netcoreapp3.1/TaxiManagement.DataAccess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.WebAPI/obj/Debug/netcoreapp3.1/TaxiManagement.WebAPI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.WebAPI/obj/Debug/netcoreapp3.1/TaxiManagement.WebAPI.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +83,9 @@
     <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverDeleteService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverGetService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Depot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Driver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Car.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,7 +108,6 @@
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/CarUpdateModel.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverUpdateModel.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DepotCreateModel.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarDeleteService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotCreateService.cs" />
@@ -120,11 +130,17 @@
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarCreateService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarUpdateService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Car.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Driver.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Depot.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1aIs8T7y2am0wV7I1qvYc7UcF2F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -194,6 +210,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586434282666</updated>
       <workItem from="1586434285444" duration="7670000" />
+      <workItem from="1586606999989" duration="2873000" />
     </task>
     <task id="LOCAL-00001" summary="msg">
       <created>1586443654534</created>
@@ -216,13 +233,20 @@
       <option name="project" value="LOCAL" />
       <updated>1586446862671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added some comments in BLL Implementations">
+      <created>1586447697457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586447697458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -239,7 +263,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -251,7 +277,8 @@
     <MESSAGE value="BLL Implementations" />
     <MESSAGE value="fixup! BLL Implementations" />
     <MESSAGE value="BLL Implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup! BLL Implementations" />
+    <MESSAGE value="Added some comments in BLL Implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some comments in BLL Implementations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="186" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586435300534">
@@ -270,10 +297,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="266" key="GitRewordDialog/0.0.1366.728@0.0.1366.728" timestamp="1586447330781" />
-    <state x="541" y="258" key="Github.ShareDialog" timestamp="1586443373270">
+    <state x="541" y="258" key="Github.ShareDialog" timestamp="1586447776238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="541" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1586443373270" />
+    <state x="541" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1586447776238" />
     <state x="324" y="114" key="Rider.ProjectTemplateDialog.Size" timestamp="1586435396539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -290,5 +317,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586443779341" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586609407201">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586609407201" />
   </component>
 </project>
