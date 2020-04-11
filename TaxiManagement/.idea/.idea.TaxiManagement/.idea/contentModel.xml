@@ -68,13 +68,21 @@
         <e p="Context" t="Include">
           <e p="TaxiManagementContext.cs" t="Include" />
         </e>
-        <e p="Contracts" t="Include" />
+        <e p="Contracts" t="Include">
+          <e p="ICarDataAccess.cs" t="Include" />
+          <e p="IDepotDataAccess.cs" t="Include" />
+          <e p="IDriverDataAccess.cs" t="Include" />
+        </e>
         <e p="Entities" t="Include">
           <e p="Car.cs" t="Include" />
           <e p="Depot.cs" t="Include" />
           <e p="Driver.cs" t="Include" />
         </e>
-        <e p="Implementations" t="Include" />
+        <e p="Implementations" t="Include">
+          <e p="CarDataAccess.cs" t="Include" />
+          <e p="DepotDataAccess.cs" t="Include" />
+          <e p="DriverDataAccess.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -88,7 +96,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Car.cs" t="Include" />
         <e p="Contracts" t="Include">
+          <e p="ICarContainer.cs" t="Include" />
           <e p="ICarId.cs" t="Include" />
+          <e p="IDepotContainer.cs" t="Include" />
           <e p="IDepotID.cs" t="Include" />
           <e p="IDriverId.cs" t="Include" />
         </e>

@@ -2,7 +2,7 @@
 
 namespace TaxiManagement.Domain
 {
-    public class Car:IDepotId
+    public class Car:IDepotContainer
     {
         public int Id { get; set; }
         public string Model { get; set; }
@@ -10,6 +10,6 @@ namespace TaxiManagement.Domain
         public int CurrentRepairs { get; set; }
         public Depot Depot { get; set; }
 
-        int IDepotId.DepotId => this.Depot.Id;
+        int? IDepotContainer.DepotContainer => this.Depot.Id;
     }
 }

@@ -18,7 +18,7 @@ namespace TaxiManagement.BLL.Implementations
             throw new System.NotImplementedException();
         }
 
-        public Task ValidateAsync(IDepotId depot)
+        public Task ValidateAsync(IDepotContainer depot)
         {
             throw new System.NotImplementedException();
         }

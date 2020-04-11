@@ -11,7 +11,7 @@ namespace TaxiManagement.BLL.Contracts
     {
         Task<Depot> GetAsync(IDepotId depot);
         Task<IEnumerable<Depot>> GetAsync();
-        Task ValidateAsync(IDepotId depot);
+        Task ValidateAsync(IDepotContainer depot);
 
     }
 }

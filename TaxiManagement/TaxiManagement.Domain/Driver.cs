@@ -3,7 +3,7 @@ using TaxiManagement.Domain.Contracts;
 
 namespace TaxiManagement.Domain
 {
-    public class Driver : ICarId
+    public class Driver : ICarContainer
     {
         public int DriverId { get; set; }
         public string FirstName { get; set; }
@@ -11,6 +11,6 @@ namespace TaxiManagement.Domain
         public decimal Salary { get; set; }
         public Car Car { get; set; }
 
-        int ICarId.CarId => this.Car.Id;
+        int? ICarContainer.CarContainer => this.Car.Id;
     }
 }

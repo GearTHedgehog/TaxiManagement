@@ -19,7 +19,7 @@ namespace TaxiManagement.BLL.Implementations
             throw new System.NotImplementedException();
         }
 
-        public Task ValidateAsync(ICarId car)
+        public Task ValidateAsync(ICarContainer car)
         {
             throw new System.NotImplementedException();
         }

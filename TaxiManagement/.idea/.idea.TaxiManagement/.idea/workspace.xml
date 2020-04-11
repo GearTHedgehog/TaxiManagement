@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ce6f73d-3d39-4673-bbc5-610e65643fde" name="Default Changelist" comment="Added some comments in BLL Implementations">
-      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Car.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Depot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Driver.cs" afterDir="false" />
+    <list default="true" id="6ce6f73d-3d39-4673-bbc5-610e65643fde" name="Default Changelist" comment="DataAccess: Entities and Context">
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Contracts/ICarDataAccess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Contracts/IDepotDataAccess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Contracts/IDriverDataAccess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Implementations/CarDataAccess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Implementations/DepotDataAccess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Implementations/DriverDataAccess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/ICarContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaxiManagement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaxiManagement/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TaxiManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaxiManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarGetService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotGetService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/TaxiManagement.DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/TaxiManagement.DataAccess.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/Debug/netcoreapp3.1/TaxiManagement.DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/Debug/netcoreapp3.1/TaxiManagement.DataAccess.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/TaxiManagement.DataAccess.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.DataAccess/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiManagement.WebAPI/obj/Debug/netcoreapp3.1/TaxiManagement.WebAPI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.WebAPI/obj/Debug/netcoreapp3.1/TaxiManagement.WebAPI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.Domain/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.Domain/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.Domain/Driver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.Domain/Driver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.Domain/Models/CarUpdateModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.Domain/Models/CarUpdateModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverUpdateModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverUpdateModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="6baf5bf2bc2f7555c0a6b9bdc21941a6ab381d80" />
+        <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -83,6 +93,14 @@
     <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverDeleteService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverGetService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverUpdateService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.Domain/Contracts/ICarContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Implementations/DepotDataAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Implementations/DriverDataAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Implementations/CarDataAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Contracts/ICarDataAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Contracts/IDepotDataAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Contracts/IDriverDataAccess.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Depot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Driver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Car.cs" root0="FORCE_HIGHLIGHTING" />
@@ -94,32 +112,21 @@
         <option value="$PROJECT_DIR$/TaxiManagement.DTO/Class1.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Class1.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotContainer.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotID.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/ICarId.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDriverId.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Driver.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotId.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Car.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Depot.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverIdModel.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DepotIdModel.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/CarIdModel.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/CarUpdateModel.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverUpdateModel.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DepotCreateModel.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarDeleteService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotCreateService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotDeleteService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverDeleteService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DriverGetService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarCreateService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarUpdateService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotCreateService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarGetService.cs" />
-        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotGetService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverCreateService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDriverDeleteService.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarDeleteService.cs" />
@@ -134,6 +141,24 @@
         <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Driver.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Entities/Depot.cs" />
         <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Context/TaxiManagementContext.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Contracts/IDepotDataAccess.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Contracts/ICarDataAccess.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Contracts/IDriverDataAccess.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Implementations/DriverDataAccess.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Implementations/DepotDataAccess.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/CarIdModel.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/ICarId.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.DataAccess/Implementations/CarDataAccess.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/IDepotContainer.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Contracts/ICarContainer.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Driver.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Car.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/CarUpdateModel.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.Domain/Models/DriverUpdateModel.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/CarGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/ICarGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Contracts/IDepotGetService.cs" />
+        <option value="$PROJECT_DIR$/TaxiManagement.BLL/Implementations/DepotGetService.cs" />
       </list>
     </option>
   </component>
@@ -210,7 +235,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586434282666</updated>
       <workItem from="1586434285444" duration="7670000" />
-      <workItem from="1586606999989" duration="2873000" />
+      <workItem from="1586606999989" duration="5895000" />
     </task>
     <task id="LOCAL-00001" summary="msg">
       <created>1586443654534</created>
@@ -240,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586447697458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DataAccess: Entities and Context">
+      <created>1586610023711</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586610023711</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +310,8 @@
     <MESSAGE value="fixup! BLL Implementations" />
     <MESSAGE value="BLL Implementations" />
     <MESSAGE value="Added some comments in BLL Implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some comments in BLL Implementations" />
+    <MESSAGE value="DataAccess: Entities and Context" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataAccess: Entities and Context" />
   </component>
   <component name="WindowStateProjectService">
     <state x="186" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586435300534">

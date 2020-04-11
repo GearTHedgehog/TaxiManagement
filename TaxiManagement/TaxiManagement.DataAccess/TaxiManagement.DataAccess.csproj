@@ -5,16 +5,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Contracts" />
-      <Folder Include="Implementations" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="AutoMapper" Version="9.0.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TaxiManagement.Domain\TaxiManagement.Domain.csproj" />
     </ItemGroup>
 
 </Project>

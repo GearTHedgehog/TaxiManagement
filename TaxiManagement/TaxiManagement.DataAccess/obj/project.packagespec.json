@@ -14,7 +14,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj": {
+            "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

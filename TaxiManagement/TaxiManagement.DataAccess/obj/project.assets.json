@@ -1293,6 +1293,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "TaxiManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TaxiManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaxiManagement.Domain.dll": {}
+        }
       }
     }
   },
@@ -5016,6 +5026,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "TaxiManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TaxiManagement.Domain/TaxiManagement.Domain.csproj",
+      "msbuildProject": "../TaxiManagement.Domain/TaxiManagement.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5024,7 +5039,8 @@
       "Microsoft.EntityFrameworkCore >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.1",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.1"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.1",
+      "TaxiManagement.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5050,7 +5066,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
