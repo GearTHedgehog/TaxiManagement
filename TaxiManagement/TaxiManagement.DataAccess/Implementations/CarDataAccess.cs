@@ -75,7 +75,8 @@ namespace TaxiManagement.DataAccess.Implementations
 
         public async Task DeleteAsync(ICarId car)
         {
-            var result = this.Context.Remove(this.Mapper.Map<Car>(car));
+            var found = await this.Get(car);
+            var result = this.Context.Remove(found);
             await this.Context.SaveChangesAsync();
         }
     }

@@ -67,7 +67,8 @@ namespace TaxiManagement.DataAccess.Implementations
 
         public async Task DeleteAsync(IDriverId driver)
         {
-            var result = this.Context.Remove(this.Mapper.Map<Driver>(driver));
+            var found = await this.Get(driver);
+            var result = this.Context.Remove(found);
             await this.Context.SaveChangesAsync();
         }
     }
