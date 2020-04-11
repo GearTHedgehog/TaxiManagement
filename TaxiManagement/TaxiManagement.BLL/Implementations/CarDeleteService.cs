@@ -1,14 +1,23 @@
 ﻿using System.Threading.Tasks;
 using TaxiManagement.BLL.Contracts;
+using TaxiManagement.DataAccess.Contracts;
 using TaxiManagement.Domain.Contracts;
+using TaxiManagement.Domain.Models;
 
 namespace TaxiManagement.BLL.Implementations
 {
     public class CarDeleteService:ICarDeleteService
     {
-        public Task DeleteAsync(ICarId car)
+        private ICarDataAccess CarDataAccess { get; }
+            public CarDeleteService(ICarDataAccess carDataAccess)
         {
-            throw new System.NotImplementedException();
+            this.CarDataAccess = carDataAccess;
+        }
+
+        public async Task DeleteAsync(ICarId car)
+        {
+            //await this.DepotGetService.ValidateAsync(car); //проверка, привязана ли машина к депо
+            await this.CarDataAccess.DeleteAsync(car);
         }
     }
 }

@@ -65,9 +65,10 @@ namespace TaxiManagement.DataAccess.Implementations
             return this.Mapper.Map<Domain.Driver>(result);
         }
 
-        public Task DeleteAsync(IDriverId Driver)
+        public async Task DeleteAsync(IDriverId driver)
         {
-            throw new NotImplementedException();
+            var result = this.Context.Remove(this.Mapper.Map<Driver>(driver));
+            await this.Context.SaveChangesAsync();
         }
     }
 }

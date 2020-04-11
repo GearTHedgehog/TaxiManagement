@@ -63,9 +63,10 @@ namespace TaxiManagement.DataAccess.Implementations
                 : null;
         }
         
-        public Task DeleteAsync(IDepotId depot)
+        public async Task DeleteAsync(IDepotId depot)
         {
-            throw new NotImplementedException();
+            var result = this.Context.Remove(this.Mapper.Map<Depot>(depot));
+            await this.Context.SaveChangesAsync();
         }
     }
 }

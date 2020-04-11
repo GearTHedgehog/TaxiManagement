@@ -73,9 +73,10 @@ namespace TaxiManagement.DataAccess.Implementations
             return this.Mapper.Map<Domain.Car>(result);
         }
 
-        public Task DeleteAsync(ICarId car)
+        public async Task DeleteAsync(ICarId car)
         {
-            throw new NotImplementedException();
+            var result = this.Context.Remove(this.Mapper.Map<Car>(car));
+            await this.Context.SaveChangesAsync();
         }
     }
 }
