@@ -15,7 +15,7 @@ namespace TaxiManagement.DataAccess.Entities
         public string Model { get; set; }
         public int YearOfProduction { get; set; }
         public int CurrentRepairs { get; set; }
-        public int DepotId { get; set; }
+        public int? DepotId { get; set; }
         public virtual Depot Depot { get; set; }
         public virtual ICollection<Driver> Driver { get; set; }
     }
