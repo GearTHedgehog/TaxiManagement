@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +28,7 @@ namespace TaxiManagement.DataAccess.Implementations
         public async Task<Depot> InsertAsync(DepotCreateModel depot)
         {
             var result = await this.Context
-                .AddAsync(this.Mapper.Map<Depot>(depot));
+                .AddAsync(this.Mapper.Map<DataAccess.Entities.Depot>(depot));
             await this.Context.SaveChangesAsync();
             return this.Mapper.Map<Domain.Depot>(result.Entity);
         }
@@ -57,9 +57,9 @@ namespace TaxiManagement.DataAccess.Implementations
 
         public async Task<Depot> GetByAsync(IDepotContainer depotId)
         {
-            return depotId.DepotContainer.HasValue
+            return depotId.DepotId.HasValue
                 ? this.Mapper.Map<Domain.Depot>(
-                    await this.Context.Depot.FirstOrDefaultAsync(x => x.Id == depotId.DepotContainer))
+                    await this.Context.Depot.FirstOrDefaultAsync(x => x.Id == depotId.DepotId))
                 : null;
         }
         

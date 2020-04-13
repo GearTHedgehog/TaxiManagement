@@ -28,7 +28,7 @@ namespace TaxiManagement.DataAccess.Implementations
         public async Task<Driver> InsertAsync(DriverUpdateModel driver)
         {
             var result = await this.Context
-                .AddAsync(this.Mapper.Map<Driver>(driver));
+                .AddAsync(this.Mapper.Map<DataAccess.Entities.Driver>(driver));
             await this.Context.SaveChangesAsync();
             return this.Mapper.Map<Domain.Driver>(result.Entity);
         }
@@ -40,14 +40,14 @@ namespace TaxiManagement.DataAccess.Implementations
                 throw new ArgumentNullException(nameof(driver));
             }
 
-            return await this.Context.Driver.Include(x => x.Car)
-                .FirstOrDefaultAsync(x => x.DriverId == driver.DriverId);
+            return await this.Context.Driver.Include(x => x.Car).Include(x => x.Car.Depot)
+                .FirstOrDefaultAsync(x => x.Id == driver.Id);
         }
 
         public async Task<IEnumerable<Driver>> GetAsync()
         {
             return this.Mapper.Map<IEnumerable<Domain.Driver>>(
-                await this.Context.Driver.Include(x => x.Car).ToListAsync());
+                await this.Context.Driver.Include(x => x.Car).Include(x => x.Car.Depot).ToListAsync());
         }
 
         public async Task<Driver> GetAsync(IDriverId driverId)
