@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using TaxiManagement.BLL.Contracts;
@@ -26,9 +26,9 @@ namespace TaxiManagement.BLL.Implementations
             return this.DepotDataAccess.GetAsync(depot);
         }
 
-        private async Task<Depot> GetBy(IDepotContainer depotContainer)
+        private Task<Depot> GetBy(IDepotContainer depotContainer)
         {
-            return await this.DepotDataAccess.GetByAsync(depotContainer);
+            return this.DepotDataAccess.GetByAsync(depotContainer);
         }
         public async Task ValidateAsync(IDepotContainer depotContainer)
         {

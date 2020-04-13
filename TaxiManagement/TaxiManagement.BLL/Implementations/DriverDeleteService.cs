@@ -13,10 +13,9 @@ namespace TaxiManagement.BLL.Implementations
             this.DriverDataAccess = driverDataAccess;
         }
 
-        public async Task DeleteAsync(IDriverId driver)
+        public Task DeleteAsync(IDriverId driver)
         {
-            //await this.DepotGetService.ValidateAsync(car); //проверка, привязана ли машина к депо
-            await this.DriverDataAccess.DeleteAsync(driver);
+           return this.DriverDataAccess.DeleteAsync(driver);
         }
     }
 }

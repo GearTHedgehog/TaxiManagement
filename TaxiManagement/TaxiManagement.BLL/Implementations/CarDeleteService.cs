@@ -14,10 +14,9 @@ namespace TaxiManagement.BLL.Implementations
             this.CarDataAccess = carDataAccess;
         }
 
-        public async Task DeleteAsync(ICarId car)
+        public Task DeleteAsync(ICarId car)
         {
-            //await this.DepotGetService.ValidateAsync(car); //проверка, привязана ли машина к депо
-            await this.CarDataAccess.DeleteAsync(car);
+            return this.CarDataAccess.DeleteAsync(car);
         }
     }
 }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -28,9 +28,9 @@ namespace TaxiManagement.BLL.Implementations
             return this.CarDataAccess.GetAsync();
         }
 
-        private async Task<Car> GetBy(ICarContainer carContainer)
+        private Task<Car> GetBy(ICarContainer carContainer)
         {
-            return await this.CarDataAccess.GetByAsync(carContainer);
+            return this.CarDataAccess.GetByAsync(carContainer);
         }
 
         public async Task ValidateAsync(ICarContainer carContainer)

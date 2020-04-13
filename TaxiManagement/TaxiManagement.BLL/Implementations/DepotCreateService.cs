@@ -14,9 +14,9 @@ namespace TaxiManagement.BLL.Implementations
         {
             this.DepotDataAccess = depotDataAccess;
         }
-        public async Task<Depot> CreateAsync(DepotCreateModel depot)
+        public Task<Depot> CreateAsync(DepotCreateModel depot)
         {
-            return await this.DepotDataAccess.InsertAsync(depot);
+            return this.DepotDataAccess.InsertAsync(depot);
         }
     }
 }

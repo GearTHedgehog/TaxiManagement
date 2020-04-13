@@ -13,9 +13,9 @@ namespace TaxiManagement.BLL.Implementations
             this.DepotDataAccess = depotDataAccess;
         }
         
-        public async Task DeleteAsync(IDepotId depot)
+        public Task DeleteAsync(IDepotId depot)
         {
-            await this.DepotDataAccess.DeleteAsync(depot);
+            return this.DepotDataAccess.DeleteAsync(depot);
         }
     }
 }
