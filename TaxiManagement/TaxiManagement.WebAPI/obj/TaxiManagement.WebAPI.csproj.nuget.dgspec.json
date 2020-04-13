@@ -4,14 +4,147 @@
     "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.WebAPI\\TaxiManagement.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.WebAPI\\TaxiManagement.WebAPI.csproj": {
+    "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\TaxiManagement.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.WebAPI\\TaxiManagement.WebAPI.csproj",
-        "projectName": "TaxiManagement.WebAPI",
-        "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.WebAPI\\TaxiManagement.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\TaxiManagement.BLL.csproj",
+        "projectName": "TaxiManagement.BLL",
+        "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\TaxiManagement.BLL.csproj",
         "packagesPath": "C:\\Users\\Gear\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gear\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj"
+              },
+              "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Gear\\.dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj",
+        "projectName": "TaxiManagement.DataAccess",
+        "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Gear\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gear\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Gear\\.dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj",
+        "projectName": "TaxiManagement.Domain",
+        "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Gear\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gear\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -35,6 +168,133 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Gear\\.dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DTO\\TaxiManagement.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DTO\\TaxiManagement.DTO.csproj",
+        "projectName": "TaxiManagement.DTO",
+        "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DTO\\TaxiManagement.DTO.csproj",
+        "packagesPath": "C:\\Users\\Gear\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gear\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Gear\\.dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.WebAPI\\TaxiManagement.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.WebAPI\\TaxiManagement.WebAPI.csproj",
+        "projectName": "TaxiManagement.WebAPI",
+        "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.WebAPI\\TaxiManagement.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Gear\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gear\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\TaxiManagement.BLL.csproj": {
+                "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.BLL\\TaxiManagement.BLL.csproj"
+              },
+              "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DataAccess\\TaxiManagement.DataAccess.csproj"
+              },
+              "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.Domain\\TaxiManagement.Domain.csproj"
+              },
+              "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DTO\\TaxiManagement.DTO.csproj": {
+                "projectPath": "C:\\Users\\Gear\\RiderProjects\\dotnet\\TaxiManagement\\TaxiManagement.DTO\\TaxiManagement.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

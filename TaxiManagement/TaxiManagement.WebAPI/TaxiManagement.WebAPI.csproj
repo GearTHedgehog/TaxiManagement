@@ -1,8 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TaxiManagement.BLL\TaxiManagement.BLL.csproj" />
+      <ProjectReference Include="..\TaxiManagement.DataAccess\TaxiManagement.DataAccess.csproj" />
+      <ProjectReference Include="..\TaxiManagement.Domain\TaxiManagement.Domain.csproj" />
+      <ProjectReference Include="..\TaxiManagement.DTO\TaxiManagement.DTO.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="9.0.0" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    </ItemGroup>
 
 
 </Project>
