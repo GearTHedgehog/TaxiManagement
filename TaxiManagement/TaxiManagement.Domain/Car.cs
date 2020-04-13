@@ -10,6 +10,6 @@ namespace TaxiManagement.Domain
         public int CurrentRepairs { get; set; }
         public Depot Depot { get; set; }
 
-        int? IDepotContainer.DepotContainer => this.Depot.Id;
+        int? IDepotContainer.DepotId => this.Depot.Id;
     }
 }

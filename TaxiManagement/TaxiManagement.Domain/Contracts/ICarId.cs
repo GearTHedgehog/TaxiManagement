@@ -2,6 +2,6 @@
 {
     public interface ICarId
     {
-        public int CarId { get; }
+        public int Id { get; }
     }
 }

@@ -2,6 +2,6 @@
 {
     public interface IDepotContainer
     {
-        public int? DepotContainer { get; }
+        public int? DepotId { get; }
     }
 }

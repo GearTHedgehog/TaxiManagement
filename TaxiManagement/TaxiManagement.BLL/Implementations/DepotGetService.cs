@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using TaxiManagement.BLL.Contracts;
@@ -38,9 +38,9 @@ namespace TaxiManagement.BLL.Implementations
             }
 
             var depot = await this.GetBy(depotContainer);
-            if (depotContainer.DepotContainer.HasValue && depot == null)
+            if (depotContainer.DepotId.HasValue && depot == null)
             {
-                throw new InvalidOperationException($"Depot not found by id {depotContainer.DepotContainer}");
+                throw new InvalidOperationException($"Depot not found by id {depotContainer.DepotId}");
             }
         }
     }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,7 +40,7 @@ namespace TaxiManagement.DataAccess.Implementations
                 throw new ArgumentNullException(nameof(depot));
             }
 
-            return await this.Context.Depot.FirstOrDefaultAsync(x => x.Id == depot.DepotId);
+            return await this.Context.Depot.FirstOrDefaultAsync(x => x.Id == depot.Id);
         }
 
         public async Task<IEnumerable<Depot>> GetAsync()

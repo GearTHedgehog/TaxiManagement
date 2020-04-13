@@ -4,7 +4,7 @@ namespace TaxiManagement.Domain.Models
 {
     public class DepotCreateModel:IDepotId
     {
-        public int DepotId { get; set; }
+        public int Id { get; set; }
         public string Address { get; set; }
     }
 }

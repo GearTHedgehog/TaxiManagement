@@ -36,7 +36,7 @@ namespace TaxiManagement.BLL.Tests.Unit
             var fixture = new Fixture();
             var id = fixture.Create<int>();
             var carContainer = new Mock<ICarContainer>();
-            carContainer.Setup(x => x.CarContainer).Returns(id);
+            carContainer.Setup(x => x.CarId).Returns(id);
             
             var carDataAccess = new Mock<ICarDataAccess>();
             carDataAccess.Setup(x 

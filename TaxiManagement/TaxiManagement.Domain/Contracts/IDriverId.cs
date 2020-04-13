@@ -2,6 +2,6 @@
 {
     public interface IDriverId
     {
-        public int DriverId { get; }
+        public int Id { get; }
     }
 }

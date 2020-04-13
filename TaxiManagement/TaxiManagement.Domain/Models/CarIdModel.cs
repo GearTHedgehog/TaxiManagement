@@ -4,11 +4,11 @@ namespace TaxiManagement.Domain.Models
 {
     public class CarIdModel:ICarId
     {
-        public int CarId { get; }
+        public int Id { get; }
 
         public CarIdModel(int id)
         {
-            this.CarId = id;
+            this.Id = id;
         }
     }
 }

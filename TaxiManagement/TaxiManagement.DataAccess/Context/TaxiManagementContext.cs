@@ -27,7 +27,7 @@ namespace TaxiManagement.DataAccess.Context
         {
             modelBuilder.Entity<Driver>(entity =>
             {
-                entity.Property(e => e.DriverId).UseIdentityColumn().Metadata
+                entity.Property(e => e.Id).UseIdentityColumn().Metadata
                     .SetBeforeSaveBehavior(PropertySaveBehavior.Ignore);
                 entity.HasOne(c => c.Car)
                     .WithMany(d => d.Driver)

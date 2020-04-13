@@ -2,6 +2,6 @@
 {
     public interface ICarContainer
     {
-        public int? CarContainer { get; }
+        public int? CarId { get; }
     }
 }

@@ -28,7 +28,7 @@ namespace TaxiManagement.DataAccess.Implementations
         public async Task<Car> InsertAsync(CarUpdateModel car)
         {
             var result = await this.Context
-                .AddAsync(this.Mapper.Map<Car>(car));
+                .AddAsync(this.Mapper.Map<DataAccess.Entities.Car>(car));
             await this.Context.SaveChangesAsync();
             return this.Mapper.Map<Domain.Car>(result.Entity);
         }
@@ -41,7 +41,7 @@ namespace TaxiManagement.DataAccess.Implementations
             }
 
             return await this.Context.Car.Include(x => x.Depot)
-                .FirstOrDefaultAsync(x => x.Id == car.CarId);
+                .FirstOrDefaultAsync(x => x.Id == car.Id);
         }
 
         public async Task<IEnumerable<Car>> GetAsync()
@@ -58,9 +58,9 @@ namespace TaxiManagement.DataAccess.Implementations
 
         public async Task<Car> GetByAsync(ICarContainer carId)
         {
-            return carId.CarContainer.HasValue
+            return carId.CarId.HasValue
                 ? this.Mapper.Map<Domain.Car>(
-                    await this.Context.Car.FirstOrDefaultAsync(x => x.Id == carId.CarContainer))
+                    await this.Context.Car.FirstOrDefaultAsync(x => x.Id == carId.CarId))
                 : null;
         }
 

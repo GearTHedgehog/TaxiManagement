@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -41,9 +41,9 @@ namespace TaxiManagement.BLL.Implementations
             }
 
             var car = await this.GetBy(carContainer);
-            if (carContainer.CarContainer.HasValue && car == null)
+            if (carContainer.CarId.HasValue && car == null)
             {
-                throw new InvalidOperationException($"Car not found by id {carContainer.CarContainer}");
+                throw new InvalidOperationException($"Car not found by id {carContainer.CarId}");
             }
         }
     }

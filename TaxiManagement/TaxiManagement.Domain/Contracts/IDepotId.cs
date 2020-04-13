@@ -2,6 +2,6 @@
 {
     public interface IDepotId
     {
-        public int DepotId { get; }
+        public int Id { get; }
     }
 }
